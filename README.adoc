@@ -1,0 +1,34 @@
+= mp3-db
+
+A simple python CRUD learning project
+
+
+include::https://raw.githubusercontent.com/wiki/EuleAdmin/mp3-db/Home.asciidoc[]
+
+
+image::https://eulon.de/img/logo.png[]
+
+## Asciidoc-Documentation
+[AsciiDoc Language Documentation](https://docs.asciidoctor.org/asciidoc/latest/)
+
+[AsciiDoctor-Diagram](https://docs.asciidoctor.org/diagram-extension/latest/)
+
+[Using AsciiDoc and Asciidoctor to write documentation - Tutorial](https://www.vogella.com/tutorials/AsciiDoc/article.html) (Vogella)
+
+## PlantUML
+[PlantUML](https://plantuml.com/de/) (german).
+
+[PlantUML](https://plantuml-documentation.readthedocs.io/en/latest/formatting/all-skin-params.html) (All Skin Parameters)
+
+## Database
+### Liquibase
+[Liquibase](https://www.liquibase.com/)
+
+[Liquibase documentation](https://docs.liquibase.com/home.html)
+
+    java -jar /application/lib/liquibase.jar --defaultsFile=liquibase.properties updatesql
+
+    java -jar /application/lib/liquibase.jar --defaultsFile=liquibase_test.properties updatesql
+
+### Docker
+[Docker](https://www.docker.com/)
