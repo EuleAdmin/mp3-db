@@ -1,7 +1,7 @@
 = MP3-Database image:https://eulon.de/img/eulon_white.png[eulon_logo,50]
 
 A simple python CRUD learning project  +
-(You can find some notes and documentation on https://eulon.de/mp3db.html[my homepage])
+(You can find some - german - notes and documentation on https://eulon.de/mp3db.html[my homepage])
 
 * Creating database(s) using https://www.liquibase.com/[Liquibase] 
 ** https://docs.liquibase.com/home.html[Liquibase documentation]
