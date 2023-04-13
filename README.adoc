@@ -1,4 +1,4 @@
-= MP3-Database image:https://eulon.de/img/eulon_white.png[eulon_logo,50]
+= MP3-Database image:https://eulon.de/img/logo.png[eulon_logo,50]
 
 A simple python CRUD learning project  +
 (You can find some - german - notes and documentation on https://eulon.de/mp3db.html[my homepage])
