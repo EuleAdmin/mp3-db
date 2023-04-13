@@ -1,34 +1,14 @@
-= mp3-db
+= MP3-Database image:https://eulon.de/img/eulon_white.png[eulon_logo,50]
 
-A simple python CRUD learning project
+A simple python CRUD learning project  +
+(You can find some notes and documentation on https://eulon.de/mp3db.html[my homepage])
 
+* Creating database(s) using https://www.liquibase.com/[Liquibase] 
+** https://docs.liquibase.com/home.html[Liquibase documentation]
+** Using https://www.docker.com/[Docker] for development
+* https://docs.asciidoctor.org/asciidoc/latest/[Asciidoc-Documentation]
+** https://docs.asciidoctor.org/diagram-extension/latest/[AsciiDoctor-Diagram]
+** https://www.vogella.com/tutorials/AsciiDoc/article.html[Using AsciiDoc and Asciidoctor to write documentation - Vogella Tutorial]
+* Graphical documentation using https://plantuml.com/de/[PlantUML (german)]
+** https://plantuml-documentation.readthedocs.io/en/latest/formatting/all-skin-params.html[PlantUML Skin Parameters]
 
-include::https://raw.githubusercontent.com/wiki/EuleAdmin/mp3-db/Home.asciidoc[]
-
-
-image::https://eulon.de/img/logo.png[]
-
-## Asciidoc-Documentation
-[AsciiDoc Language Documentation](https://docs.asciidoctor.org/asciidoc/latest/)
-
-[AsciiDoctor-Diagram](https://docs.asciidoctor.org/diagram-extension/latest/)
-
-[Using AsciiDoc and Asciidoctor to write documentation - Tutorial](https://www.vogella.com/tutorials/AsciiDoc/article.html) (Vogella)
-
-## PlantUML
-[PlantUML](https://plantuml.com/de/) (german).
-
-[PlantUML](https://plantuml-documentation.readthedocs.io/en/latest/formatting/all-skin-params.html) (All Skin Parameters)
-
-## Database
-### Liquibase
-[Liquibase](https://www.liquibase.com/)
-
-[Liquibase documentation](https://docs.liquibase.com/home.html)
-
-    java -jar /application/lib/liquibase.jar --defaultsFile=liquibase.properties updatesql
-
-    java -jar /application/lib/liquibase.jar --defaultsFile=liquibase_test.properties updatesql
-
-### Docker
-[Docker](https://www.docker.com/)
